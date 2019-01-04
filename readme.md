@@ -1,6 +1,6 @@
 IMDB classification task with ELMo
 ===
-IMDBネガポジ分類タスクを[ELMo](https://arxiv.org/abs/1802.05365)を使ったモデルで簡単に取り組んでみました．Kerasで実装されています．
+IMDBネガポジ分類タスクを[ELMo](https://arxiv.org/abs/1802.05365)を使ったモデルで簡単に取り組んでみました．Kerasで実装されています．
 
 ## How to Run
 ```
@@ -35,7 +35,7 @@ Non-trainable params: 0
 _________________________________________________________________
 ```
 
-ELMoを適用したモデルの構造は以下の通りです．  
+ELMoを適用したモデルの構造は以下の通りです．  
 * Input -> Embedding + ELMo Embedding -> 双方向LSTM -> Output  
 
 ```
@@ -97,8 +97,8 @@ Test accuracy: 0.8551999998092651
 ```
 
 ## Note
-* 事前学習済みELMoモジュールの制約上，モジュールに渡す入力データは単語分割済みの生のテキストデータである必要があります．  
-そのため，main.pyでは，トークン化されているデータを生の単語列に戻す作業を行っています．ELMoモジュールを活用する際にはこの点にご注意ください．
+* 事前学習済みELMoモジュールの制約上，モジュールに渡す入力データは単語分割済みの生のテキストデータである必要があります．  
+そのため，main.pyでは，トークン化されているデータを生の単語列に戻す作業を行っています．ELMoモジュールを活用する際にはこの点にご注意ください．
 
 * 今回はやっていませんが，[ベースモデルの改善](https://machinelearningmastery.com/sequence-classification-lstm-recurrent-neural-networks-python-keras/)をすればさらに良い結果が出ると思います．
 
