@@ -108,5 +108,5 @@ Test accuracy: 0.8551999998092651
 [Keras imdb_lstm.py](https://github.com/keras-team/keras/blob/master/examples/imdb_lstm.py)  
 [ELMo paper](https://arxiv.org/abs/1802.05365)
 
-## Licence
-[MIT](./LICENCE)
+## License
+[MIT](./LICENSE)
