@@ -4,7 +4,7 @@ IMDBネガポジ分類タスクを[ELMo](https://arxiv.org/abs/1802.05365)を使
 
 ## How to Run
 ```
-git clone git@gitlab.katfuji:gucci/elmo-imdb.git
+git clone https://github.com/gucci-j/elmo-imdb.git
 cd elmo-imdb
 python main.py 
 ```
